@@ -13,3 +13,7 @@ console.log(second);
 
 const numbers=(a,b,...c)=>console.log(a,b,...c);
 numbers(13,25,18,90,23);
+
+const arr1=[23,57,73,30];
+const arr2=[40,86,57,14];
+console.log(...arr1,...arr2);
