@@ -6,7 +6,7 @@ const value=Object.values(market);
 console.log(value);
 const all=Object.entries(market);
 console.log(all);
-
+// Object.freeze(market);
 Object.seal(market);
 const price=market.price;
  market.type="Deshi"
